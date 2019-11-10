@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       validation: {
         notNull: {
+          args: true,
           msg: "Name can not be blank. Please insert a Name"
         } 
       }
