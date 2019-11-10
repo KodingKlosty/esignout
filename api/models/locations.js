@@ -10,11 +10,6 @@ module.exports = (sequelize, DataTypes) => {
     locationName: DataTypes.STRING,
     OrgId: {
       type: DataTypes.UUIDV4,
-      references:{
-        model: 'orgs',
-        key: 'id',
-        onDelete: 'CASCADE'
-      }
     },
   }, {});
   Locations.associate = function(models) {
