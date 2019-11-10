@@ -18,26 +18,23 @@ module.exports = (sequelize, DataTypes) => {
     },
     OrgId: {
       type: DataTypes.UUIDV4,
-      references:{
-        model: 'orgs',
-        key: 'id',
-        onDelete: 'CASCADE'
+      validation: {
+        notNull: {
+          msg: "Org ID wasn't assigned by the server"
+        }
       }
     },
     TeamManager: {
       type: DataTypes.UUIDV4,
-      references:{
-        model: 'users',
-        key: 'id'
+      validation: {
+        notNull: {
+          msg: "Please Select a Team Manager"
+        }
       }
     },
     LocationId: {
       type: DataTypes.UUIDV4,
-      allowNull: false,
-      references:{
-        model: 'locations',
-        key: 'id'
-      }
+      allowNull: true,
     },
     createdAt: {
       allowNull: false,

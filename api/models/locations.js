@@ -10,6 +10,12 @@ module.exports = (sequelize, DataTypes) => {
     locationName: DataTypes.STRING,
     OrgId: {
       type: DataTypes.UUIDV4,
+      allowNull: false,
+      validation: {
+        notNull: {
+          msg: "Please enter a name"
+        }
+      }
     },
   }, {});
   Locations.associate = function(models) {

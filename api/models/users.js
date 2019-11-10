@@ -57,10 +57,18 @@ module.exports = (sequelize, DataTypes) => {
     LocationId:{
       type: DataTypes.UUIDV4,
       allowNull: true,
+      validation: {
+        args: true,
+        msg: "A LocationId was not defined."
+      }
     },
     StatusId: {
       type: DataTypes.UUIDV4,
       allowNull: true,
+      validation: {
+        args: true,
+        msg: "A Status was not defined."
+      }
     },
     slackToken: {
       type: DataTypes.STRING,
