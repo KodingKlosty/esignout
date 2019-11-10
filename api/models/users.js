@@ -12,17 +12,19 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       validation: {
         notNull: {
-          args: true,
           msg: "Name can not be blank. Please insert a Name"
         } 
       }
     },
     username: {
       type: DataTypes.STRING,
-      unique: true,
+      unique: {
+        args:true,
+        msg: "Username is already in use"
+      },
+      allowNull: false,
       validation: {
         notNull: {
-          args: true,
           msg: "Username can not be blank. Please insert a Username"
         }
       }
@@ -47,10 +49,14 @@ module.exports = (sequelize, DataTypes) => {
     SecLevelId: {
       type: DataTypes.UUIDV4,
       allowNull: false,
+      validation: {
+        args: true,
+        msg: "A security level was not defined."
+      }
     },
     LocationId:{
       type: DataTypes.UUIDV4,
-      allowNull: false,
+      allowNull: true,
     },
     StatusId: {
       type: DataTypes.UUIDV4,
