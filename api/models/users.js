@@ -83,7 +83,6 @@ module.exports = (sequelize, DataTypes) => {
     // associations can be defined here
     Users.belongsTo(models.Teams);
     Users.belongsTo(models.Orgs);
-
   };
   return Users;
 };
