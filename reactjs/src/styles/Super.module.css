@@ -1,0 +1,133 @@
+.suTitle{
+    color: #000000;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+    text-align: center;
+    font-size: 79px; /* Display 1 Size */
+    padding-bottom: 79px;
+}
+.createDiv{
+    margin: auto;
+    font-size: 24px;
+    padding-bottom: 75px;
+}
+.createTxt{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.orgButton{
+    background-color: #EA3546;
+    color: #ffffff;
+    border: #EA3546 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160px;
+}
+
+.orgButton:hover{
+    background-color: #ffffff;
+    color: #EA3546;
+    border:#EA3546 2px solid;
+}
+
+.orgButton:active{
+    background-color: #EA3546 !important;
+    color: #ffffff !important;
+    border: #EA3546 2px solid !important;
+}
+
+.teamButton{
+    background-color: #F9C80E;
+    color: #ffffff;
+    border: #F9C80E 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160px;
+     
+}
+
+.teamButton:hover{
+    background-color: #ffffff;
+    color: #F9C80E;
+    border:#F9C80E 2px solid;
+}
+
+.teamButton:active{
+    background-color: #F9C80E !important;
+    color: #ffffff !important;
+    border: #F9C80E 2px solid !important;
+}
+
+.userButton{
+    background-color: #43BCCD;
+    color: #ffffff;
+    border: #43BCCD 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160px;
+     
+}
+
+.userButton:hover{
+    background-color: #ffffff;
+    color: #43BCCD;
+    border:#43BCCD 2px solid;
+}
+
+.userButton:active{
+    background-color: #43BCCD !important;
+    color: #ffffff !important;
+    border: #43BCCD 2px solid !important;
+}
+
+.locationButton{
+    background-color: #662E9B;
+    color: #ffffff;
+    border: #662E9B 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160px;
+     
+}
+
+.locationButton:hover{
+    background-color: #ffffff;
+    color: #662E9B;
+    border:#662E9B 2px solid;
+}
+
+.locationButton:active{
+    background-color: #662E9B !important;
+    color: #ffffff !important;
+    border: #662E9B 2px solid !important;
+}
+
+.statusButton{
+    background-color: #F86624;
+    color: #ffffff;
+    border: #F86624 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160px;
+     
+}
+
+.statusButton:hover{
+    background-color: #ffffff;
+    color: #F86624;
+    border:#F86624 2px solid;
+}
+
+.statusButton:active{
+    background-color: #F86624 !important;
+    color: #ffffff !important;
+    border: #F86624 2px solid !important;
+}

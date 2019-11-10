@@ -1,0 +1,19 @@
+.table{
+    width: 65%;
+    margin: auto;
+    
+}
+.banner{
+    margin: auto;
+    background-color: #662E9B;
+    color: #ffffff;
+    height: 40px;
+    width: 65%;
+    text-align: center;
+}
+
+
+.tableData{
+    text-align: center;
+    padding-bottom: 50px;
+}

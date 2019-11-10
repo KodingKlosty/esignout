@@ -1,0 +1,50 @@
+
+.divEmpAll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.divEmpInd{
+    flex: 0 1 auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.empInNum{
+    font-size: 61px;
+    color: #43BCCD;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}
+
+.empIn{
+    font-size: 20px;
+    color:#43BCCD;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}
+
+.empOutNum{
+    font-size: 61px;
+    color:#EA3546;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}
+
+.empOut{
+    font-size: 20px;
+    color:#EA3546;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}
+
+.empTotalNum{
+    font-size: 61px;
+    color: #F86624;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}
+
+.empTotal{
+    font-size: 20px;
+    color:#F86624;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+}

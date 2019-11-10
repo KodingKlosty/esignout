@@ -1,0 +1,45 @@
+.form{
+    margin: auto;
+    width: 40%;
+}
+
+
+.comName {
+    color: #F9C80E;
+    text-shadow: 0px 3px 6px rgba(0,0,0, .16);
+    text-align: center;
+    font-size: 79px; /* Display 1 Size */
+    padding-bottom: 79px;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #43BCCD;
+    border: #43BCCD 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.button:hover{
+    background-color: #43BCCD;
+    color: #ffffff;
+    border: #43BCCD 2px solid;
+}
+
+.slackButton{
+    background-color: #ffffff;
+    color: #662E9B;
+    border:#662E9B 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.slackButton:hover{
+    background-color: #662E9B;
+    color: #ffffff;
+    border: #662E9B 2px solid;
+}
+

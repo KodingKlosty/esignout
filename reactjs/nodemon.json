@@ -1,0 +1,7 @@
+{
+    "env":{
+        "DEBUG": "web:*",
+        "CLIENT_ID": "39ff0843b06ad3bc2241",
+        "CALLBACK_URL": "http://localhost:3000/login/callback"
+    }
+}
