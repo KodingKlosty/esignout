@@ -24,3 +24,5 @@ module.exports = (sequelize, DataTypes) => {
   };
   return Locations;
 };
+
+//copy over successful please delete me
