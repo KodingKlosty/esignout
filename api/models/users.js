@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     username: {
       type: DataTypes.STRING,
       unique: {
-        args:true,
+        args: true,
         msg: "Username is already in use"
       },
       allowNull: false,
